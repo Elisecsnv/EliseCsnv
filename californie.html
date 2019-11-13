@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Californie - Les Surfeuses Lilloises</title>
+	<meta charset="utf-8">
+
+	<!-- font -->
+
+	<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+
+
+	<!-- css -->
+
+	<link rel="stylesheet" href="indexhtml/css/bootstrap.min.css">
+	<link rel="stylesheet" href="indexhtml/css/californie.css">
+
+
+</head>
+
+
+<body>
+
+<!-- header --> 
+<header class="container-fluid header">
+	<div class="container">
+		<a href="index.html" class="logo"> Les Surfeurses Lilloises </a>
+		<nav class="menu">
+			<a href="index.html"> Accueil </a>
+			<a href="californie.html"> Californie </a>
+			<a href="bretagne.html"> Bretagne </a>
+			<a href="#contact"> Contact </a>
+					
+		 </nav>
+
+	</div>
+			 
+</header>
+<!-- end header --> 
+
+<!-- First Picture -->
+	<section class="container-fluid banner">
+				<div class="ban">
+					<img src="indexhtml/Images/cali6jpg.jpg" alt="Photo 1">
+				</div>
+	</section>
+<!-- End First Picture -->
+<br>
+
+<!-- Title -->
+<div class="title">
+      <h1>La Californie</h1>
+      <h3>Malibu</h3>
+</div>
+<!-- End Title -->
+
+<br>
+
+<!-- Images 1 -->
+
+<div class="img-container">
+	<img id="right" src="indexhtml/Images/cali7.jpg" alt="Photo 4">
+</div>
+
+<div class="img-container">
+	<img id="left" src="indexhtml/Images/cali2.jpg" alt="Photo 3">
+</div>
+
+<!-- End Images 1 -->
+
+<div>
+	<img id="phototrois" src="indexhtml/Images/cali4.jpg" alt="Photo 5">
+</div>
+
+<br>
+<p> Des Beach Boys à Jay Moriarity en passant par les Z-Boys, la <span style="font-weight: bold;">Californie</span> est aujourd’hui considérée comme l’eldorado du surf. Au départ de San Francisco vous pouvez planifier votre surf trip en descendant vers le sud par la Pacific Coast Highway. Santa Monica, Santa Barbara, Oceanside, Huntington Beach, Half Moon Bay, Santa Cruz, Malibu… Des spots tous aussi réputés les uns que les autres. </p>
+
+<p> <span style="font-weight: bold;">La Californie</span> c’est tout un art de vivre à l’Américaine, c’est le lieu de naissance de la culture surf, le lieu de rendez-vous des meilleurs shappers et des pros où se mélangent surfers et skaters.</p>
+
+<p>Capitale culturelle de la <span style="font-weight: bold;">West Coast Américaine</span>, San Francisco est considérée comme la destination touristique. Connue pour sa diversité, ses scènes musicales diversifiées et ses nombreux musées, <span style="font-weight: bold;">San Francisco</span> tend à se faire connaître pour ses plages et ses vagues pour surfeurs expérimentés en hiver. Les spots du <span style="font-weight: bold;">Nord de la Californie</span> peuvent offrir de très bonnes houles de novembre à mars malgré une eau froide et un temps frais.</p>
+
+<p>La grande plage d’<span style="font-weight: bold;">Ocean Beach</span> vous offrira de nombreuses possibilités mais attention aux courants et surtout aux requins. Bordé par le <span style="font-weight: bold;">Golden Gate Park</span>, ce spot est très populaire des bons surfeurs pour ses vagues fantastiques et capricieuses. Pour le mythe, offrez-vous une session sous le Golden Gate Bridge mais attention le spot est dangereux avec ses rochers de fond. Le spot idéal pour commencer à surfer est sans aucun doute celui de <span style="font-weight: bold;">Pacifica</span>. Les vagues y sont souvent présentent et pas difficiles.</p>
+
+<br>
+
+<video width="100%" controls id="myvideo">
+  <source src="indexhtml/vidéo/surfelise.mp4" type="video/mp4">
+</video>
+
+<br>
+<br>
+<br>
+<!-- footer contact -->
+
+	<footer class="container-fluid footer" >
+		<h2 id="contact"> Contactez-nous ! </h2>
+
+		<div class="container">
+			<div class="row">
+					<div class="span6">
+
+			            <form class="formulaireContact">
+			                
+			                <div class="controls controls-row">
+			                    <input id="name" name="name" type="text" class="span3" placeholder="Name"> 
+			                    <input id="email" name="email" type="email" class="span3" placeholder="Email address">
+			                </div>
+			                <div class="controls">
+			                    <textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+			                </div>
+			                  
+			                <div class="controls">
+			                    <button id="contact-submit" type="submit" class="btn btn-custom input-medium pull-right">Send</button>
+			             	</div>
+			            
+			            </form>
+
+			        </div>
+				</div>
+			<p>
+				Copyright (c) 2019 Copyright Holder All Rights Reserved. 
+			</p>
+		</div> 
+	</footer>
+
+<script>
+var elem = document.getElementById("myvideo");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+</body>
